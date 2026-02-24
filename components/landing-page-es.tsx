@@ -116,7 +116,7 @@ const LandingPageEs = () => {
       <div className="relative bg-white yarn-texture">
         {/* Hero Image Area */}
         <div className="relative h-48 sm:h-56 md:h-72 lg:h-96 overflow-hidden rounded-b-[2rem] sm:rounded-b-[2.5rem] md:rounded-b-[3rem]">
-          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-S7D8tk4Hqigq6I6Fci6NPYvkeZioHq.png" alt="Imagen Principal" fill priority className="object-cover" sizes="100vw" />
+          <Image src="/images/hero-principal.png" alt="Imagen Principal" fill priority className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-white/30 to-emerald-900/10" />
         </div>
 
@@ -262,7 +262,7 @@ const LandingPageEs = () => {
           <div className="space-y-3 sm:space-y-4 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 lg:gap-6 mb-4 sm:mb-6">
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-emerald-100 hover:border-emerald-200 hover-lift">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/0a14939d-b061-41b7-9235-ab76b98da915-b2DYX0wsAW3oy7ox2UiBwCAJos2OCC.png"
+                src="/images/testimonio-1.png"
                 alt="Testimonio Maria de Lurdes"
                 width={600}
                 height={800}
@@ -273,7 +273,7 @@ const LandingPageEs = () => {
 
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-emerald-100 hover:border-emerald-200 hover-lift">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1da01890-9e09-43fe-9638-c92bb2ad41cc-F9aJkOMissTBoHPPnHSzakPoNHtVXv.png"
+                src="/images/testimonio-2.png"
                 alt="Testimonio Gabriela Fonseca"
                 width={600}
                 height={800}
@@ -400,7 +400,7 @@ const LandingPageEs = () => {
 
             <div className="mt-4 sm:mt-6 mb-6 sm:mb-8">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/48d998db-ed4a-4050-8cb2-505dcb86f43e-OIVvPkWNzGoleWUEExBrP1AHzIt0oH.png"
+                src="/images/bonus-section.png"
                 alt="Testimonios de clientas satisfechas"
                 width={480}
                 height={720}
@@ -574,7 +574,7 @@ const LandingPageEs = () => {
           <div className="bg-gradient-to-br from-amber-50 to-yellow-50 border-2 border-amber-300 border-dashed rounded-3xl p-6 mt-8 text-center shadow-lg max-w-sm sm:max-w-md md:max-w-lg mx-auto">
             <div className="mb-4">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/7777-G6cA9Ms0MvzB4wGJ98FAVV0gNd85lc.png"
+                src="/images/garantia-badge.png"
                 alt="Garantia de 30 dias"
                 width={180}
                 height={180}
@@ -666,7 +666,7 @@ const LandingPageEs = () => {
 
           <div className="flex justify-center mb-4">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome%20%282%29-hTpRDraEwtMsAwj2Cv2jIZUA4l4opp.png"
+              src="/images/footer-design.png"
               alt="Sitio Seguro - Google - Sitio Blindado - Compra 100% Segura"
               className="object-contain opacity-70 w-96 h-28"
             />

@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es-CL" suppressHydrationWarning>
+    <html lang="es-CL">
       <head>
         <link
           rel="preload"
@@ -128,7 +128,7 @@ export default function RootLayout({
           />
         </noscript>
       </head>
-      <body className={`${nunito.variable} ${quicksand.variable} font-sans antialiased`} suppressHydrationWarning>
+      <body className={`${nunito.variable} ${quicksand.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

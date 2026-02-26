@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import PurchaseNotificationEs from "./purchase-notification-es"
+import LanguageSwitcher from "./language-switcher"
 
 const LandingPageEs = () => {
   const [urgencyTime, setUrgencyTime] = useState({
@@ -68,6 +69,7 @@ const LandingPageEs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50/50 via-white to-green-50/30 font-sans overflow-x-hidden">
       <PurchaseNotificationEs />
+      <LanguageSwitcher />
 
       {/* Urgency Banner - Fixed Top */}
       <div className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-white py-2.5 sm:py-3 px-3 relative overflow-hidden">

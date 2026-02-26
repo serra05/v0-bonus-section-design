@@ -9,13 +9,20 @@ const nunito = Nunito({ subsets: ["latin"], display: "swap", variable: "--font-n
 const quicksand = Quicksand({ subsets: ["latin"], display: "swap", variable: "--font-quicksand" })
 
 export const metadata: Metadata = {
-  title: "Universo Amigurumi - Curso de Crochet",
+  title: "Universo Amigurumi - Curso de Croche",
   description:
-    "Aprende a crear plantitas hermosas y rentables en amigurumi. Transforma tu pasion por el crochet en un negocio verde y rentable!",
+    "Aprenda a criar plantinhas lindas e lucrativas em amigurumi. Transforme sua paixao por croche em um negocio verde e rentavel!",
   generator: "v0.app",
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
+  },
+  alternates: {
+    canonical: "https://www.universoamigurumi.shop/",
+    languages: {
+      "pt-BR": "https://www.universoamigurumi.shop/",
+      "es": "https://www.universoamigurumi.shop/page",
+    },
   },
 }
 
@@ -25,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es-CL">
+    <html lang="pt-BR">
       <head>
         <link
           rel="preload"

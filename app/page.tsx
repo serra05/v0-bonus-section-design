@@ -1,5 +1,5 @@
-import LandingPageEs from "@/components/landing-page-es"
+import LandingPage from "@/components/landing-page"
 
 export default function Page() {
-  return <LandingPageEs />
+  return <LandingPage />
 }

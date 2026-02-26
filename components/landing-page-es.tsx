@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import PurchaseNotificationEs from "./purchase-notification-es"
-import LanguageSwitcher from "./language-switcher"
 
 const LandingPageEs = () => {
   const [urgencyTime, setUrgencyTime] = useState({
@@ -69,7 +68,6 @@ const LandingPageEs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50/50 via-white to-green-50/30 font-sans overflow-x-hidden">
       <PurchaseNotificationEs />
-      <LanguageSwitcher />
 
       {/* Urgency Banner - Fixed Top */}
       <div className="bg-gradient-to-r from-red-700 via-red-600 to-red-700 text-white py-2.5 sm:py-3 px-3 relative overflow-hidden">
@@ -311,7 +309,6 @@ const LandingPageEs = () => {
                   src="/images/bonus-anime-series-es.png"
                   alt="Bonus Anime y Series - Pack Amigurumi"
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -331,7 +328,6 @@ const LandingPageEs = () => {
                   src="/images/bonus-pack-terror-es.png"
                   alt="Bonus Pack Terror Halloween - Pack Amigurumi"
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -351,7 +347,6 @@ const LandingPageEs = () => {
                   src="/images/bonus-amigos-bosque-es.png"
                   alt="Bonus Amigos del Bosque - Pack Amigurumi"
                   fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -618,7 +613,6 @@ const LandingPageEs = () => {
               src="/images/expert-laura.png"
               alt="Laura Vianell - Experta en Amigurumi"
               fill
-              sizes="(max-width: 1024px) 256px, 320px"
               className="object-cover rounded-3xl shadow-xl relative z-10"
               loading="lazy"
             />

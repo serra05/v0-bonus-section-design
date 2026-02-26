@@ -1,17 +1,11 @@
+import type React from "react"
 import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Universo Amigurumi - Curso de Crochet",
+  title: "Universo Amigurumi - Espanol",
   description:
     "Aprende a crear plantitas hermosas y rentables en amigurumi. Transforma tu pasion por el crochet en un negocio verde y rentable!",
-  alternates: {
-    canonical: "https://www.universoamigurumi.shop/es",
-    languages: {
-      "pt-BR": "https://www.universoamigurumi.shop/",
-      "es": "https://www.universoamigurumi.shop/es",
-    },
-  },
 }
 
 export default function EsLayout({

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 
 export default function LanguageSwitcher() {
   const pathname = usePathname()
-  const isSpanish = pathname === "/page" || pathname.startsWith("/page/")
+  const isSpanish = pathname === "/es" || pathname.startsWith("/es/")
 
   return (
     <div className="flex items-center justify-center gap-2 bg-emerald-900/90 backdrop-blur-sm py-2 px-3">
@@ -23,7 +23,7 @@ export default function LanguageSwitcher() {
         <span>{"Português"}</span>
       </Link>
       <Link
-        href="/page"
+        href="/es"
         className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 ${
           isSpanish
             ? "bg-white/20 text-white shadow-sm"

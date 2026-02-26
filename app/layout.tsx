@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "https://www.universoamigurumi.shop/",
     languages: {
       "pt-BR": "https://www.universoamigurumi.shop/",
-      "es": "https://www.universoamigurumi.shop/page",
+      "es": "https://www.universoamigurumi.shop/es",
     },
   },
 }

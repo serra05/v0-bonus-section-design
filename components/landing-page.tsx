@@ -124,7 +124,7 @@ const LandingPage = () => {
         <div className="bg-white mx-3 sm:mx-4 md:mx-auto md:max-w-xl lg:max-w-2xl -mt-12 sm:-mt-14 md:-mt-20 lg:-mt-24 rounded-2xl sm:rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 relative z-10 border border-emerald-200">
           <div className="flex items-center justify-center mb-3 sm:mb-4 md:mb-5 lg:mb-6 mt-1 sm:mt-2">
             <Image
-              src="/images/universo-amigurumi-logo.png"
+              src="/images/universo-amigurumi-logo.jpg"
               alt="Universo Amigurumi Logo"
               width={128}
               height={128}
@@ -640,7 +640,7 @@ const LandingPage = () => {
           <div className="relative w-64 lg:w-80 h-80 lg:h-96 mx-auto mb-8">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-green-200 rounded-3xl transform rotate-3" />
             <Image
-              src="/images/expert-laura.png"
+              src="/images/expert-laura.jpg"
               alt="Laura Vianell - Expert em Amigurumi"
               fill
               className="object-cover rounded-3xl shadow-xl relative z-10"

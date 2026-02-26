@@ -116,7 +116,7 @@ const LandingPageEs = () => {
       <div className="relative bg-white yarn-texture">
         {/* Hero Image Area */}
         <div className="relative h-48 sm:h-56 md:h-72 lg:h-96 overflow-hidden rounded-b-[2rem] sm:rounded-b-[2.5rem] md:rounded-b-[3rem]">
-          <Image src="/images/hero-principal.png" alt="Imagen Principal" fill priority className="object-cover" sizes="100vw" />
+          <Image src="/images/hero-principal.jpg" alt="Imagen Principal" fill priority className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-white/30 to-emerald-900/10" />
         </div>
 
@@ -124,7 +124,7 @@ const LandingPageEs = () => {
         <div className="bg-white mx-3 sm:mx-4 md:mx-auto md:max-w-xl lg:max-w-2xl -mt-12 sm:-mt-14 md:-mt-20 lg:-mt-24 rounded-2xl sm:rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 relative z-10 border border-emerald-200">
   <div className="flex items-center justify-center mb-3 sm:mb-4 md:mb-5 lg:mb-6 mt-1 sm:mt-2">
   <Image
-  src="/images/banner-universo-amigurumi-es.png"
+  src="/images/banner-universo-amigurumi-es.jpg"
   alt="Universo Amigurumi - Ebook Digital con flores, suculentas y amigurumis"
   width={800}
   height={450}
@@ -262,7 +262,7 @@ const LandingPageEs = () => {
           <div className="space-y-3 sm:space-y-4 md:space-y-0 md:grid md:grid-cols-2 md:gap-4 lg:gap-6 mb-4 sm:mb-6">
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-emerald-100 hover:border-emerald-200 hover-lift">
               <Image
-                src="/images/testimonio-1.png"
+                src="/images/testimonio-1.jpg"
                 alt="Testimonio Maria de Lurdes"
                 width={600}
                 height={800}
@@ -273,7 +273,7 @@ const LandingPageEs = () => {
 
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-emerald-100 hover:border-emerald-200 hover-lift">
               <Image
-                src="/images/testimonio-2.png"
+                src="/images/testimonio-2.jpg"
                 alt="Testimonio Gabriela Fonseca"
                 width={600}
                 height={800}
@@ -306,7 +306,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-anime-series-es.png"
+                  src="/images/bonus-anime-series-es.jpg"
                   alt="Bonus Anime y Series - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -325,7 +325,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-pack-terror-es.png"
+                  src="/images/bonus-pack-terror-es.jpg"
                   alt="Bonus Pack Terror Halloween - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -344,7 +344,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-amigos-bosque-es.png"
+                  src="/images/bonus-amigos-bosque-es.jpg"
                   alt="Bonus Amigos del Bosque - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -400,7 +400,7 @@ const LandingPageEs = () => {
 
             <div className="mt-4 sm:mt-6 mb-6 sm:mb-8">
               <Image
-                src="/images/bonus-section.png"
+                src="/images/bonus-section.jpg"
                 alt="Testimonios de clientas satisfechas"
                 width={480}
                 height={720}
@@ -574,7 +574,7 @@ const LandingPageEs = () => {
           <div className="bg-gradient-to-br from-amber-50 to-yellow-50 border-2 border-amber-300 border-dashed rounded-3xl p-6 mt-8 text-center shadow-lg max-w-sm sm:max-w-md md:max-w-lg mx-auto">
             <div className="mb-4">
               <Image
-                src="/images/garantia-badge.png"
+                src="/images/garantia-badge.jpg"
                 alt="Garantia de 30 dias"
                 width={180}
                 height={180}
@@ -610,7 +610,7 @@ const LandingPageEs = () => {
           <div className="relative w-64 lg:w-80 h-80 lg:h-96 mx-auto mb-8">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-green-200 rounded-3xl transform rotate-3" />
             <Image
-              src="/images/expert-laura.png"
+              src="/images/expert-laura.jpg"
               alt="Laura Vianell - Experta en Amigurumi"
               fill
               className="object-cover rounded-3xl shadow-xl relative z-10"
@@ -666,7 +666,7 @@ const LandingPageEs = () => {
 
           <div className="flex justify-center mb-4">
             <img
-              src="/images/footer-design.png"
+              src="/images/footer-design.jpg"
               alt="Sitio Seguro - Google - Sitio Blindado - Compra 100% Segura"
               className="object-contain opacity-70 w-96 h-28"
             />

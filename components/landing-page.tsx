@@ -643,6 +643,7 @@ const LandingPage = () => {
               src="/images/expert-laura.png"
               alt="Laura Vianell - Expert em Amigurumi"
               fill
+              sizes="(max-width: 1024px) 256px, 320px"
               className="object-cover rounded-3xl shadow-xl relative z-10"
               loading="lazy"
             />
